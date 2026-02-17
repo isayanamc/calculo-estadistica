@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5daf00d-eb92-45b2-8352-70f472f2ea9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/estadistica/definiciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculo/factorizacion_limites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculo/limites_absolutos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculo/racionalizacion_limites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,26 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.funcionesalgebraicas_completa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graficar_funcion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trigonometria.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trigonometria_completa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.factorizacion_limites.executor": "Run",
+    "Python.funcionesalgebraicas_completa.executor": "Run",
+    "Python.graficar_funcion.executor": "Run",
+    "Python.limites_absolutos.executor": "Run",
+    "Python.racionalizacion_limites.executor": "Run",
+    "Python.trigonometria.executor": "Run",
+    "Python.trigonometria_completa.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.trigonometria">
+}]]></component>
+  <component name="RunManager">
     <configuration name="trigonometria" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="calculo-estadistica" />
       <option name="ENV_FILES" value="" />
@@ -124,6 +129,7 @@
       <workItem from="1769611992691" duration="4450000" />
       <workItem from="1769619139685" duration="3479000" />
       <workItem from="1769721907874" duration="2846000" />
+      <workItem from="1771347823335" duration="1455000" />
     </task>
     <servers />
   </component>
@@ -131,9 +137,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculo_estadistica$factorizacion_limites.coverage" NAME="factorizacion_limites Coverage Results" MODIFIED="1771349177591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
     <SUITE FILE_PATH="coverage/calculo_estadistica$trigonometria.coverage" NAME="trigonometria Coverage Results" MODIFIED="1769618986000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
+    <SUITE FILE_PATH="coverage/calculo_estadistica$racionalizacion_limites.coverage" NAME="racionalizacion_limites Coverage Results" MODIFIED="1771349111932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
     <SUITE FILE_PATH="coverage/calculo_estadistica$funcionesalgebraicas_completa.coverage" NAME="funcionesalgebraicas_completa Coverage Results" MODIFIED="1769619511293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
     <SUITE FILE_PATH="coverage/calculo_estadistica$graficar_funcion.coverage" NAME="graficar_funcion Coverage Results" MODIFIED="1769616017520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
     <SUITE FILE_PATH="coverage/calculo_estadistica$trigonometria_completa.coverage" NAME="trigonometria_completa Coverage Results" MODIFIED="1769619484518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
+    <SUITE FILE_PATH="coverage/calculo_estadistica$limites_absolutos.coverage" NAME="limites_absolutos Coverage Results" MODIFIED="1771348456811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculo" />
   </component>
 </project>
